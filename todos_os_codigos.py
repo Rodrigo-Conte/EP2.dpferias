@@ -165,3 +165,7 @@ def valida_questoes(lista):
         validacao=valida_questao(i)
         erros.append(validacao)
     return erros
+import random
+def sorteia_questao(dic, nivel):
+    sort=random.choice(dic[nivel])
+    return sort
